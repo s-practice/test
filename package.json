@@ -1,0 +1,15 @@
+{
+  "name": "shibano_test",
+  "version": "0.1.0",
+  "description": "shibano_test",
+  "engines": {
+    "npm": ">=3"
+  },
+  "scripts": {
+    "build": "git rev-parse HEAD > version.txt && cat version.txt && ls -la"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
+}
