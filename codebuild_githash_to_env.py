@@ -24,3 +24,9 @@ if __name__ == '__main__':
     print('-----------------')
     print('-----------------')
     print('-----------------')
+    for env in os.environ:
+        print(env)
+        print(os.environ.get(env))
+
+    print('----------------------------------')
+
