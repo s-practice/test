@@ -13,7 +13,8 @@ phases:
       - echo "Nothing to do with pre_build phase"
   build:
     commands:
-      - ls -la && npm run build
+#      - ls -la && npm run build
+      - echo "Nothing to do with pre_build phase"
   post_build:
     commands:
       - echo "Nothing to do with post_build phase"
