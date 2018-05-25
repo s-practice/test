@@ -13,14 +13,14 @@ get_pipeline_response = codepipeline.get_pipeline(
     name=PIPELINE_NAME
 )
 
-get-pipeline-state_response = codepipeline.get-pipeline-state(
+get_pipeline_state_response = codepipeline.get_pipeline_state(
     name=PIPELINE_NAME
 )
 
 if __name__ == '__main__':
     print('get_pipeline_response: ' + get_pipeline_response)
     print('-----------------')
-    print('get-pipeline-state_response: ' + get-pipeline-state_response)
+    print('get-pipeline-state_response: ' + get_pipeline_state_response)
     print('-----------------')
     print('-----------------')
     print('-----------------')
