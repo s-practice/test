@@ -18,9 +18,9 @@ get_pipeline_state_response = codepipeline.get_pipeline_state(
 )
 
 if __name__ == '__main__':
-    print('get_pipeline_response: ' + get_pipeline_response)
+    print('get_pipeline_response: ', get_pipeline_response)
     print('-----------------')
-    print('get_pipeline_state_response: ' + get_pipeline_state_response)
+    print('get_pipeline_state_response: ', get_pipeline_state_response)
     print('-----------------')
     print('-----------------')
     print('-----------------')
