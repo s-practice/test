@@ -15,4 +15,4 @@ response = codepipeline.get_pipeline(
 )
 
 if __name__ == '__main__':
-    print(codepipeline)
+    print(response)
